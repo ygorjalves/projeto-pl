@@ -1,0 +1,200 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+
+@font-face {
+    font-family: 'play';
+    src: url(fonte/Minercraftory.ttf) format(truetype);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --color1: #B1AEF3;
+    --color2: #5C73A9;
+    --color3: #2A285C;
+    --color4: #0B1F43;
+    --color5: #000729;
+    --fonte-padrao: Arial, Helvetica, sans-serif;
+    --fonte-destaque: "Kode Mono", monospace;
+    --fonte-game: 'play', sans-serif;
+}
+
+body {
+    font-family: var(--fonte-padrao);
+    background-color: var(--color1);
+}
+
+header {
+    background-image: linear-gradient(180deg, var(--color3), var(--color5));
+    min-height: 150px;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+header > h1 {
+    padding: 10px;
+    font-family: var(--fonte-destaque);
+    font-weight: bolder;
+    font-size: 2.5em;
+    text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.4);
+    min-width: 100px;
+}
+
+header > p {
+    font-family: var(--fonte-destaque);
+    padding: 10px;
+    max-width: 400px;
+    display: block;
+    margin: 0px auto 0px auto;
+    font-size: 1.3em;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.35);
+}
+
+nav {
+    background-color: var(--color5);
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.4);
+}
+
+nav > a {
+    padding: 10px;
+    margin: 10px;
+    color: var(--color1);
+    font-weight: bold;
+    text-decoration: none;
+    transition-duration: .6s;
+    border-radius: 10px;
+}
+
+nav > a:hover {
+    color: var(--color5);
+    background-color: var(--color1);
+    text-decoration: underline;
+}
+
+main {
+    background-color: white;
+    min-width: 260px;
+    max-width: 1000px;
+    padding: 20px;
+    margin: auto;
+    box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.3);
+    border-radius: 0px 0px 10px 10px;
+}
+
+main h1 {
+    font-size: 1.6em;
+    font-family: var(--fonte-game);
+    padding: 5px 10px;
+}
+
+main h2 {
+    font-size: 1.2em;
+    font-family: var(--fonte-game);
+    color: black;
+    background-image: linear-gradient(90deg, var(--color2), transparent);
+    padding: 5px 10px;
+}
+
+main p {
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 30px;
+    margin: 20px 5px;
+}
+
+picture source {
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+
+main img {
+    
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+main a {
+    background-color: var(--color2);
+    color: var(--color4);
+    text-decoration: none;
+}
+
+main a:hover {
+    color: var(--color3);
+    text-decoration: underline;
+}
+
+main strong {
+    color: var(--color4);
+}
+
+div.video {
+    background-color: var(--color5);
+    position: relative;
+    padding-bottom: 56.5%;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+}
+
+aside {
+    background-color: var(--color2);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+aside > h3 {
+    background-color: var(--color4);
+    margin: -20px -20px 20px -20px;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+    color: #fff;
+}
+
+aside ul {
+    list-style: inside;
+    list-style-type: '\1F3AE\0020\0020';
+    columns: 2;
+}
+
+footer {
+    background-color: var(--color5);
+    color: white;
+    text-align: center;
+    font-size: .8em;
+    font-weight: bold;
+    padding: 2px;
+    margin-top: 10px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: var(--color2);
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
